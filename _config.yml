@@ -1,10 +1,7 @@
 # Jekyll configuration
 
 name: CVHS-Lab
-description: Computer Vision and Human Recognition
-
-# url is currently only used only for the RSS feed in feed.xml
-url: http://scotte.github.io
+description: Computer Vision and Human Sensing
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
@@ -26,4 +23,4 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
-exclude: ['README.md', 'LICENSE']
+exclude: ['README.md']
